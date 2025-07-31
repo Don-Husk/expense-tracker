@@ -50,6 +50,7 @@ function App() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
         <div className="max-w-md w-full bg-white shadow rounded p-6">
+          <p>F*ck you.</p>
           {view === 'login' ? (
             <>
               <Login onLoginSuccess={handleLoginSuccess} />
